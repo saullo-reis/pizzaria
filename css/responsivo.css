@@ -1,0 +1,69 @@
+#pizzas .marguerita{
+    grid-area:marguerita;
+    border: none;
+}
+
+#pizzas .muzzarela{
+    grid-area:muzzarela;
+}
+
+#pizzas .calabresa{
+    grid-area:calabresa;
+}
+
+#pizzas .frango-com-catupiry{
+    grid-area:frangocomcatupiry;
+}
+
+#pizzas{
+    display: grid;
+    grid-template-areas: "marguerita muzzarela calabresa frangocomcatupiry";
+}
+
+
+@media(max-width:650px){
+    #header header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #header header nav ul{
+        flex-direction: column;
+        margin: 10px 0 10px 0;
+
+    }
+
+    #header header nav ul li{
+        margin: 10px 0 10px 0;
+    }
+
+    #header header .home{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #pizzas .imagem{
+        border-top: solid 0.5px gray;
+    }
+    #pizzas{
+        grid-template-areas: "marguerita muzzarela"
+    "calabresa frangocomcatupiry";
+    }
+
+    #local .text p{
+        margin: 0 0 0 20px;
+    }
+    #local .local a{
+        margin-left: 50px;
+    }
+    
+}
+
+@media(max-width:360px){
+    #pizzas{
+        grid-template-areas: "marguerita" "muzzarela"
+    "calabresa" "frangocomcatupiry";
+    }
+}

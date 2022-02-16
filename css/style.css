@@ -1,0 +1,152 @@
+#header header {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+}
+#header header img {
+  width: 100px;
+}
+
+#header header .home {
+  width: 70%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+header nav ul li a {
+  margin: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.background-first {
+  width: 100%;
+  height: 450px;
+  background: url(../src/pizza\ background.jpeg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-first h2 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #fff;
+}
+
+#pizzas img {
+  width: 70%;
+}
+
+#pizzas .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pizzas .imagem {
+  border-left: solid gray 0.5px;
+  padding: 60px;
+  align-items: center;
+}
+
+#pizzas div p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#pizzas div button {
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: indianred;
+  border-radius: 50px;
+  border: gray solid 1px;
+}
+
+.background-second {
+  background: url(../src/onemore.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+#local {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+#local .local {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#local .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#local p {
+  font-size: 20px;
+  margin: 20px;
+}
+
+#local div a {
+  border-radius: 200px;
+  box-shadow: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 130px;
+  color: black;
+  width: 300px;
+  height: 250px;
+  background: url(../src/maps.png) center center no-repeat;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer nav ul {
+  display: flex;
+  margin: 0 20px 0 20px;
+}
+
+footer nav ul li {
+  margin: 0 20px 0;
+  font-size: 10px;
+}
+
+footer nav ul li a {
+  color: gray;
+}
+
+footer p {
+  color: gray;
+  font-size: 10px;
+}
